@@ -32,8 +32,8 @@ spec:
             # agent.mode is used to set agent mode and it can be APM, INFRASTRUCTURE or AWS
             # mode: APM
 
-            # agent.key is the secret token which your agent uses to authenticate to Instana's servers.
-            # key: null
+            #agent.key is the secret token which your agent uses to authenticate to Instana's servers.
+            key: uBp4GXpZQpKrHxMXNcvInQ
             # agent.downloadKey is key, sometimes known ass "sales key", that allows you to download,
             # software from Instana.
             # downloadKey: null
@@ -162,7 +162,7 @@ spec:
 
           cluster:
             # cluster.name represents the name that will be assigned to this cluster in Instana
-            name: cluster-name
+            name: dterokscluster
 
           leaderElector:
             image:
@@ -211,7 +211,7 @@ spec:
 
           zone:
             # zone.name is the custom zone that detected technologies will be assigned to
-            name: zone-name
+            name: myzone
 
           kubernetes:
             # Configures use of a Deployment for the Kubernetes sensor rather than as a potential member of the DaemonSet

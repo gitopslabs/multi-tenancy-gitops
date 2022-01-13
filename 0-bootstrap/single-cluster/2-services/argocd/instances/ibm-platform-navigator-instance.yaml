@@ -31,5 +31,5 @@ spec:
               version: "2021.2.1"
               replicas: 2
               storage:
-                class: default
+                class: ibmc-block-gold
 
